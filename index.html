@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1>Калькулятор</h1>
+    <div>
+        a
+        <label class="nameofcal">
+            <input type="number" name="a" min="0" class="calculator">
+        </label>
+
+        b 
+        <label class="nameofcal">
+            <input type="number" name="b" min="0" class="calculator">
+        </label>
+
+        <button name="pluse" onclick="pluse()">+</button>
+        <button name="minuse" onclick="minuse()">-</button>
+        <button name="multiply" onclick="multiply()">*</button>
+        <button name="devide" onclick="devide()">/</button>
+
+        <label class="nameofcal">
+            Посчитать:
+            <input type="number" name="result" class="calculator" readonly>
+        </label>
+    </div>
+
+
+    
+    <div class="pip">
+    
+        <label oninput="calculate()"> 
+            <input type="number" name="usd"  placeholder="USD" min="0">
+            USD
+        </label>
+     </div>
+    
+     <div>  
+        <label onchange="calculate()"> 
+       
+            <input type="number" name="resultpip"  placeholder="UZS" readonly>
+            UZS
+        </label>
+     </div>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

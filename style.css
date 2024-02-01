@@ -1,0 +1,25 @@
+.calculator{
+    display: block;
+}
+
+.nameofcal{
+    display: block;
+}
+
+@media (max-width: 500px) and (max-width: 760px) {
+/*для экранов от 500 до 760px*/
+    body{
+        background-color: blueviolet;
+    }
+}
+
+@media (max-width: 500px) {
+    /*для экранов от 0 до 500px*/
+        .nameofcal{
+            display: block;
+        }
+}
+
+.pip{
+    margin-top: 60px;
+}
